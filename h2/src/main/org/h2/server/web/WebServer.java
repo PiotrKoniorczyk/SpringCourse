@@ -380,7 +380,7 @@ public class WebServer implements Service {
             }
             url = builder.toString();
         } catch (NoClassDefFoundError e) {
-            // Google App Engine does not allow java.net.InetAddress
+            // Google com.github.piotrkoniorczyk.App Engine does not allow java.net.InetAddress
         }
     }
 

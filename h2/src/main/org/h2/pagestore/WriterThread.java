@@ -65,7 +65,7 @@ public class WriterThread implements Runnable {
             writer.thread.setDaemon(true);
             return writer;
         } catch (AccessControlException e) {
-            // // Google App Engine does not allow threads
+            // // Google com.github.piotrkoniorczyk.App Engine does not allow threads
             return null;
         }
     }

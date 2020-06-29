@@ -334,7 +334,7 @@ java org.h2.test.TestAll timer
     public boolean traceTest;
 
     /**
-     * If testing on Google App Engine.
+     * If testing on Google com.github.piotrkoniorczyk.App Engine.
      */
     public boolean googleAppEngine;
 

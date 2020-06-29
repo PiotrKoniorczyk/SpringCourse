@@ -45,7 +45,7 @@ class OnExitDatabaseCloser extends Thread {
                 // database at shutdown time)
             } catch (SecurityException e) {
                 // applets may not do that - ignore
-                // Google App Engine doesn't allow
+                // Google com.github.piotrkoniorczyk.App Engine doesn't allow
                 // to instantiate classes that extend Thread
             }
         }

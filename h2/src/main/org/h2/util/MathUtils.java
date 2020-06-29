@@ -112,7 +112,7 @@ public class MathUtils {
                     }
                 }
             } catch (SecurityException e) {
-                // workaround for the Google App Engine: don't use a thread
+                // workaround for the Google com.github.piotrkoniorczyk.App Engine: don't use a thread
                 runnable.run();
                 generateAlternativeSeed();
             }
@@ -159,7 +159,7 @@ public class MathUtils {
 
             // host name and ip addresses (if any)
             try {
-                // workaround for the Google App Engine: don't use InetAddress
+                // workaround for the Google com.github.piotrkoniorczyk.App Engine: don't use InetAddress
                 Class<?> inetAddressClass = Class.forName(
                         "java.net.InetAddress");
                 Object localHost = inetAddressClass.getMethod(
